@@ -1,0 +1,101 @@
+Zobrazit zprávu jako text
+https://msguides.com/windows-11 
+
+ 
+
+Easy ways to activate Windows 11 for FREE without a product key
+Posted by
+Always Smile
+Updated on
+April 16, 2023
+334 Comments
+ 
+Contents
+About Windows 11
+Experience on Windows 11
+Should you upgrade your Windows to version 11
+Activate Windows 11 using free KMS client key
+Method 1: Manual activation
+Method 2: Using a batch file
+About Windows 11
+Jerry Nixon, a senior software development engineer at Microsoft, stated that version 10 is the last one of Windows at the Ignite conference 2015. What he said convinced many that doing an upgrade is a wise decision at that time. Six years passed by, it is already 2021, Microsoft is going to issue the stable release of Windows 11 after publishing the insider preview build. What’s going on? Is it a business trick? I don’t know for sure but I think a complimentary upgrade offer for a newer version of Windows is quite attractive. However note that hardware specification for the new Windows is much higher than the old one. So the first thing you need to do is checking if your machine can handle it or not. Just go here to check out the minimum system requirements.
+
+Experience on Windows 11
+new ui on windows 11new ui on windows 11
+I have used Windows 11 on my desktop for two weeks. It seems they created a completely new user interface that is almost similar to Mac OS for version 10 then named it 11. We have centered taskbar items, new system icons and the start menu is also centered on the screen. The list of menu options that appeared in the context menu has changed compared to the previous version. The interface of Windows apps has been refreshed and the new layout makes it attractive. The new feature which has garnered the most media attention perhaps is the ability to run android apps on Windows. It means you can play your favorite mobile games on your PC without an additional emulator. But the pity is that I don’t see this feature in the current build so I haven’t had a chance to try it.
+
+Should you upgrade your Windows to version 11
+In general, Windows 11 includes many changes in the user interface. Its new features are cool but not ready, thus, they are not attractive enough to most Windows 10 users, especially those who need a stable system. I think you should wait for the major release before deciding whether to use it. However, if you just want to try the new Windows, just go for it, using a virtual machine is recommended in this case. You can get the iso file of Windows 11 here.
+
+Activate Windows 11 using free KMS client key
+The steps are completely similar to what I showed you in step-by-step instructions on how to activate Windows 10 for free, except that I do it on Windows 11 this time.
+
+ 
+How-to video
+Method 1: Manual activation
+Step 1.1: Run Command Prompt app as administrator.
+Click on the start button, search for “cmd” then run it with admin rights.
+
+open command prompt app with admin rightsopen command prompt app with admin rights
+Step 1.2: Install KMS client key.
+
+Use the command “slmgr /ipk kmsclientkey” to install a license key (kmsclientkey is the activation key that corresponds to your Windows edition).
+The following is the list of Windows 11 Volume license keys.
+Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX
+Pro N: MH37W-N47XK-V7XM9-C7227-GCQG9
+Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43
+Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+
+install Windows product key using cmd appinstall Windows product key using cmd app
+Step 1.3: Set KMS server.
+Use the command “slmgr /skms kms8.msguides.com” to connect to my KMS server.
+
+ 
+run command slmgr skmsrun command slmgr skms
+Step 1.4: Activate your Windows.
+The last step is to activate your Windows using the command “slmgr /ato”.
+
+run command slmgr atorun command slmgr ato
+If you see the error 0x80070005, it means the server is busy. Please try the command “ato” again until you succeed.
+
+your windows is activated successfullyyour windows is activated successfully
+Method 2: Using a batch file
+This one is not recommended anymore due to the new update of Microsoft.
+
+Step 2.1: Copy the code below into a new text document.
+
+ 
+@echo off title Activate Windows 11 (ALL versions) for FREE - MSGuides.com&cls&echo =====================================================================================&echo #Project: Activating Microsoft software products for FREE without additional software&echo =====================================================================================&echo.&echo #Supported products:&echo - Windows 11 Home&echo - Windows 11 Professional&echo - Windows 11 Education&echo - Windows 11 Enterprise&echo.&echo.&echo ============================================================================&echo Activating your Windows...&cscript //nologo slmgr.vbs /ckms >nul&cscript //nologo slmgr.vbs /upk >nul&cscript //nologo slmgr.vbs /cpky >nul&set i=1&wmic os | findstr /I "enterprise" >nul if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43 >nul||cscript //nologo slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 >nul||cscript //nologo slmgr.vbs /ipk YYVX9-NTFWV-6MDM3-9PT4T-4M68B >nul||cscript //nologo slmgr.vbs /ipk 44RPN-FTY23-9VTTB-MP9BX-T84FV >nul||cscript //nologo slmgr.vbs /ipk WNMTR-4C88C-JK8YV-HQ7T2-76DF9 >nul||cscript //nologo slmgr.vbs /ipk 2F77B-TNFGY-69QQF-B8YKP-D69TJ >nul||cscript //nologo slmgr.vbs /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ >nul||cscript //nologo slmgr.vbs /ipk QFFDN-GRT3P-VKWWX-X7T3R-8B639 >nul||cscript //nologo slmgr.vbs /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D >nul||cscript //nologo slmgr.vbs /ipk 92NFX-8DJQP-P6BBQ-THF9C-7CG2H >nul&goto skms) else wmic os | findstr /I "home" >nul if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 >nul||cscript //nologo slmgr.vbs /ipk 3KHY7-WNT83-DGQKR-F7HPR-844BM >nul||cscript //nologo slmgr.vbs /ipk 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH >nul||cscript //nologo slmgr.vbs /ipk PVMJN-6DFY6-9CCP6-7BKTT-D3WVR >nul&goto skms) else wmic os | findstr /I "education" >nul if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk NW6C2-QMPVW-D7KKK-3GKT6-VCFB2 >nul||cscript //nologo slmgr.vbs /ipk 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ >nul&goto skms) else wmic os | findstr /I "11 pro" >nul if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX >nul||cscript //nologo slmgr.vbs /ipk MH37W-N47XK-V7XM9-C7227-GCQG9 >nul||cscript //nologo slmgr.vbs /ipk NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J >nul||cscript //nologo slmgr.vbs /ipk 9FNHH-K3HBT-3W4TD-6383H-6XYWF >nul||cscript //nologo slmgr.vbs /ipk 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y >nul||cscript //nologo slmgr.vbs /ipk YVWGF-BXNMC-HTQYQ-CPQ99-66QFC >nul&goto skms) else (goto notsupported) :skms if %i% GTR 10 goto busy if %i% EQU 1 set KMS=kms7.MSGuides.com if %i% EQU 2 set KMS=kms8.MSGuides.com if %i% EQU 3 set KMS=kms9.MSGuides.com if %i% GTR 3 goto ato cscript //nologo slmgr.vbs /skms %KMS%:1688 >nul :ato echo ============================================================================&echo.&echo.&cscript //nologo slmgr.vbs /ato | find /i "successfully" && (echo.&echo ============================================================================&echo.&echo #My official blog: MSGuides.com&echo.&echo #How it works: bit.ly/kms-server&echo.&echo #Please feel free to contact me at msguides.com@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: donate.msguides.com&echo #Your support is helping me keep my servers running 24/7!&echo.&echo ============================================================================&choice /n /c YN /m "Would you like to visit my blog [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto skms) explorer "http://MSGuides.com"&goto halt :notsupported echo ============================================================================&echo.&echo Sorry, your version is not supported.&echo.&goto halt :busy echo ============================================================================&echo.&echo Sorry, the server is busy and can't respond to your request. Please try again.&echo. :halt pause >nul
+Right-click on the Desktop screen then create a new text document.
+
+create new text file on windows 11create new text file on windows 11
+Step 2.2: Paste the code into the text file. Then save it as a batch file with cmd extension and a name you want. Here I named it “1click.cmd”.
+
+copy code into the text file then save itcopy code into the text file then save itsave text file as batch scriptsave text file as batch script
+Step 2.3: Right click on the batch file then run it as administrator.
+
+run the batch script as adminrun the batch script as admin
+Please wait a minute. You will see the line “Product activated successfully”. It means the activation process is completed.
+
+ 
+windows is activated successfully using batch scriptwindows is activated successfully using batch script
+*Note*: If you see three times the same error message saying that the connection to the KMS server was unsuccessful, please read this post.
+
+Finally check the activation status again.
+
+windows 11 is activated successfullywindows 11 is activated successfully
+If you would have any questions or concerns, please leave your comments. I would be glad to explain in more details. Thank you so much for all your feedback and support!
+
+ 
+ 
+ 
+ 
+ 
+ 
+5/5 - (555 votes)
