@@ -15,6 +15,7 @@ Additionally, for building from git:
 - automake >= 1.14
 - texinfo >= 5.0
 
+
 ==========================================================
 sudo apt install git libtool pkg-config   
 # download git OpenOcg 
@@ -25,3 +26,8 @@ cd openocd
 # ./bootstrap 
 # ./configure --enable-sysfsgpio 
 # make 
+# make install 
+
+=================================================================
+
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg 
