@@ -1,0 +1,5 @@
+#gdb
+gdb# target remote localhost:3333 
+gdb# monitor flash info 0
+
+
