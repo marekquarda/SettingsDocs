@@ -1,5 +1,8 @@
 # Need to be installed 
 
+Install GDB
+$ sudo apt install gdb-multiarch
+
 You'll also need:
 
 - make
@@ -35,5 +38,11 @@ cd openocd
 # make install 
 
 =================================================================
+cd ..
+git clone https://github.com/majbthrd/pico-debug.git 
+.... extract ... board/pico-debug.cfg   
+copy to ..... /usr/local/share/
+
+
 
 sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg 
