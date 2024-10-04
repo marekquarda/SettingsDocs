@@ -18,3 +18,7 @@ arm-none-eabi-size --version
 ====================================
 
 arm-none-eabi-gdb file.elf 
+=====================================
+TELNET 
+# telnet localhost 4444 
+
