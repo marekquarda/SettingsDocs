@@ -5,3 +5,13 @@ gdb# monitor flash info 0
 https://wellys.com/posts/rp2040_c_gdb_setup/ 
 
 # gdb-multiarch hello_serial.elf
+
+
+sudo apt install gcc-arm-none-eabi
+sudo apt install libncurses-dev
+
+===================================
+arm-none-eabi-gcc --version
+arm-none-eabi-g++ --version
+arm-none-eabi-gdb --version
+arm-none-eabi-size --version
