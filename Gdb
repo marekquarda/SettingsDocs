@@ -25,3 +25,5 @@ TELNET
 > flash write_image erase pokus.uf2
 > reset 
 
+https://web.navan.dev/posts/2024-08-08-openocd-macos-lldb.html
+
