@@ -1,0 +1,5 @@
+sudo firewall-cmd --permanent --add-port=23/tcp
+
+5. Reload the firewall to apply the changes:
+
+sudo firewall-cmd --reload
