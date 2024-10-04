@@ -21,4 +21,7 @@ arm-none-eabi-gdb file.elf
 =====================================
 TELNET 
 # telnet localhost 4444 
+> reset halt 
+> flash write_image erase pokus.uf2
+> reset 
 
