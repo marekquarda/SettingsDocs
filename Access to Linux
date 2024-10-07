@@ -2,5 +2,21 @@
 
 sudo ufw allow 3333
 
-sudo iptables -A INPUT -p tcp --dport 3333 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
-sudo iptables -A OUTPUT -p tcp --sport 3333 -m conntrack --ctstate ESTABLISHED -j ACCEPT
+
+/**
+//sudo iptables -A INPUT -p tcp --dport 3333 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
+//sudo iptables -A OUTPUT -p tcp --sport 3333 -m conntrack --ctstate ESTABLISHED -j ACCEPT
+*/
+/board/pico-debug.cfg 
+
+---- bindto 0.0.0.0
+# cd usr/local/share/openocd/scripts/board
+# sudo vim pico-board-debug.cfg
+
+/*****  file pico-debug.cfg ******/
+source [find interface/sysfsgpio-raspberrypi.cfg]
+# adapter speed 4000
+set CHIPNAME rp2040
+source [find target/rp2040.cfg]
+bindto [192.168.63.188]
+
