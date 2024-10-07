@@ -18,5 +18,6 @@ source [find interface/sysfsgpio-raspberrypi.cfg]
 # adapter speed 4000
 set CHIPNAME rp2040
 source [find target/rp2040.cfg]
-bindto [192.168.63.188]
+/**  bindto 0.0.0.0 can be used to cover all available interfaces */
+bindto 0.0.0.0
 
