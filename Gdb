@@ -1,7 +1,9 @@
 $ sudo apt install gdb-multiarch
 
 #gdb
-gdb# target remote localhost:3333 
+// gdb# target remote localhost:3333 
+gdb# target extended-remote 192.168.63.187:3333
+
 gdb# monitor flash info 0
 
 https://wellys.com/posts/rp2040_c_gdb_setup/ 
