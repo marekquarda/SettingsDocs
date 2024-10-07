@@ -1,0 +1,3 @@
+# sudo apt install ufw
+
+sudo ufw allow 3333
