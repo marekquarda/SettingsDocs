@@ -1,0 +1,69 @@
+Here is solution (for H3):
+
+1. Convert script.bin to FEX:
+
+cd /boot
+bin2fex script.bin script.fex
+2. Edit script.fex to enable UART3:
+
+sudo nano script.fex
+Find section [uart0] and set the next to disable uart0-2 and enable uart3 only with 2-pin mode on pin 8/10:
+
+[uart0]
+uart_used       = 0
+uart_port       = 0
+uart_type       = 2
+uart_tx         = port:PA04<2><1><default><default>
+uart_rx         = port:PA05<2><1><default><default>
+
+[uart1]
+uart_used       = 0
+uart_port       = 1
+uart_type       = 4
+uart_tx         = port:PG06<2><1><default><default>
+uart_rx         = port:PG07<2><1><default><default>
+uart_rts        = port:PG08<2><1><default><default>
+uart_cts        = port:PG09<2><1><default><default>
+
+[uart2]
+uart_used       = 0
+uart_port       = 2
+uart_type       = 4
+uart_tx         = port:PA00<2><1><default><default>
+uart_rx         = port:PA01<2><1><default><default>
+uart_rts        = port:PA02<2><1><default><default>
+uart_cts        = port:PA03<2><1><default><default>
+
+[uart3]
+uart_used       = 1
+uart_port       = 3
+uart_type       = 2
+uart_tx         = port:PA13<2><1><default><default>
+uart_rx         = port:PA14<2><1><default><default>
+;uart_rts        = port:PA15<3><1><default><default>
+;uart_cts        = port:PA16<3><1><default><default>
+Remark: I don't find description for value <2> in PA13<2> but it works as expected.
+
+ 
+
+3. Save changes.
+
+ 
+
+4. Convert FEX to bin
+
+fex2bin script.fex script.bin
+5. Reboot.
+
+ 
+
+6. Device name is ttyS3. Default speed = 57600. To test it type "echo TEST > /dev/ttyS3"
+
+ 
+
+ 
+
+PS. Some times after 
+
+apt-get upgrade
+script.bin replaces to default values, so it need to repeat all steps.
