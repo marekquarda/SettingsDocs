@@ -15,5 +15,16 @@ Control Panel > Terminal & SNMP
 Install Python + Python Modules. 
 #python3.8 -m venv ./pipvenv
 
+#cd pipvenv
+
+#sudo python3.8 -m ensurepip
+#sudo python3.8 -m pip install --upgrade pip
+#sudo python3.8 -m pip install --upgrade yt-dlp
+
+
+
+
+
+
 
 
