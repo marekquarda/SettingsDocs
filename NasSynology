@@ -1,0 +1,19 @@
+https://medium.com/@let92/download-youtube-channels-on-your-synology-nas-96faca41f765
+
+Install pip on the NAS
+Install the YouTube Downloader yt-dlp/yt-dlp using pip
+Write a script to download the videos
+Setup the NAS to execute the script every day (to download new uploads)
+Execute the script once to download existing videos
+
+Setup (14 steps)
+Enable SSH on your NAS:
+Control Panel > Terminal & SNMP
+
+#ssh admin@192.168.63.150 -p 22
+
+Install Python + Python Modules. 
+#python3.8 -m venv ./pipvenv
+
+
+
