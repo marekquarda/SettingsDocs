@@ -1,64 +1,50 @@
-Zobrazit zprávu jako text
 https://msguides.com/windows-11 
 
  
 
-Easy ways to activate Windows 11 for FREE without a product key
-Posted by
-Always Smile
-Updated on
-April 16, 2023
-334 Comments
+# Easy ways to activate Windows 11 for FREE without a product key
  
-Contents
-About Windows 11
-Experience on Windows 11
-Should you upgrade your Windows to version 11
-Activate Windows 11 using free KMS client key
-Method 1: Manual activation
-Method 2: Using a batch file
-About Windows 11
-Jerry Nixon, a senior software development engineer at Microsoft, stated that version 10 is the last one of Windows at the Ignite conference 2015. What he said convinced many that doing an upgrade is a wise decision at that time. Six years passed by, it is already 2021, Microsoft is going to issue the stable release of Windows 11 after publishing the insider preview build. What’s going on? Is it a business trick? I don’t know for sure but I think a complimentary upgrade offer for a newer version of Windows is quite attractive. However note that hardware specification for the new Windows is much higher than the old one. So the first thing you need to do is checking if your machine can handle it or not. Just go here to check out the minimum system requirements.
+## Contents
+- Activate Windows 11 using free KMS client key
+- Method 1: Manual activation
+- Method 2: Using a batch file
 
-Experience on Windows 11
-new ui on windows 11new ui on windows 11
-I have used Windows 11 on my desktop for two weeks. It seems they created a completely new user interface that is almost similar to Mac OS for version 10 then named it 11. We have centered taskbar items, new system icons and the start menu is also centered on the screen. The list of menu options that appeared in the context menu has changed compared to the previous version. The interface of Windows apps has been refreshed and the new layout makes it attractive. The new feature which has garnered the most media attention perhaps is the ability to run android apps on Windows. It means you can play your favorite mobile games on your PC without an additional emulator. But the pity is that I don’t see this feature in the current build so I haven’t had a chance to try it.
+## Activate Windows 11 using free KMS client key
+The steps are completely similar to what I showed you in step-by-step instructions on [how to activate Windows 10 for free](https://msguides.com/2-ways-activate-windows-10-free-without-software), except that I do it on Windows 11 this time.
 
-Should you upgrade your Windows to version 11
-In general, Windows 11 includes many changes in the user interface. Its new features are cool but not ready, thus, they are not attractive enough to most Windows 10 users, especially those who need a stable system. I think you should wait for the major release before deciding whether to use it. However, if you just want to try the new Windows, just go for it, using a virtual machine is recommended in this case. You can get the iso file of Windows 11 here.
-
-Activate Windows 11 using free KMS client key
-The steps are completely similar to what I showed you in step-by-step instructions on how to activate Windows 10 for free, except that I do it on Windows 11 this time.
-
- 
-How-to video
-Method 1: Manual activation
+## Method 1: Manual activation
 Step 1.1: Run Command Prompt app as administrator.
-Click on the start button, search for “cmd” then run it with admin rights.
+Click on the start button, search for “cmd” then [run it with admin rights](https://msguides.com/open-command-prompt-admin).
+
+![image](https://cdn.msguides.com/wp-content/uploads/2021/07/run-cmd-app-as-admin.png)
 
 open command prompt app with admin rightsopen command prompt app with admin rights
-Step 1.2: Install KMS client key.
+
+**Step 1.2**: Install KMS client key.
 
 Use the command “slmgr /ipk kmsclientkey” to install a license key (kmsclientkey is the activation key that corresponds to your Windows edition).
 The following is the list of Windows 11 Volume license keys.
-Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
-Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
-Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
-Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
-Pro: W269N-WFGWX-YVC9B-4J6C9-T83GX
-Pro N: MH37W-N47XK-V7XM9-C7227-GCQG9
-Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43
-Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 
-install Windows product key using cmd appinstall Windows product key using cmd app
-Step 1.3: Set KMS server.
-Use the command “slmgr /skms kms8.msguides.com” to connect to my KMS server.
+**Home**: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+**Home N**: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+**Home Single Language**: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+**Home Country Specific**: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+**Pro**: W269N-WFGWX-YVC9B-4J6C9-T83GX
+**Pro N**: MH37W-N47XK-V7XM9-C7227-GCQG9
+**Education**: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+**Education N**: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+**Enterprise**: NPPR9-FWDCX-D2C8J-H872K-2YT43
+**Enterprise N**: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 
- 
-run command slmgr skmsrun command slmgr skms
-Step 1.4: Activate your Windows.
+![image](https://cdn.msguides.com/wp-content/uploads/2021/07/install-kms-client-key-on-windows.png)*install Windows product key using cmd appinstall Windows product key using cmd app*
+
+**Step 1.3**: Set KMS server.
+Use the command **“slmgr /skms kms8.msguides.com”** to connect to my KMS server.
+
+![image](https://cdn.msguides.com/wp-content/uploads/2022/06/run-command-slmgr-skms.png)
+*run command slmgr skmsrun command slmgr skms*
+
+**Step 1.4**: Activate your Windows.
 The last step is to activate your Windows using the command “slmgr /ato”.
 
 run command slmgr atorun command slmgr ato
