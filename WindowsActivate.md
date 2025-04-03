@@ -34,7 +34,8 @@ The following is the list of Windows 11 Volume license keys.
 **Education**: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 **Education N**: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
 **Enterprise**: NPPR9-FWDCX-D2C8J-H872K-2YT43
-**Enterprise N**: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+**Enterprise N**: 
+DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 
 ![image](https://cdn.msguides.com/wp-content/uploads/2021/07/install-kms-client-key-on-windows.png)*install Windows product key using cmd appinstall Windows product key using cmd app*
 
