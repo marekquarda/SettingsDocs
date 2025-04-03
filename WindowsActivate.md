@@ -14,7 +14,7 @@ The steps are completely similar to what I showed you in step-by-step instructio
 
 ## Method 1: Manual activation
 Step 1.1: Run Command Prompt app as administrator.
-Click on the start button, search for “cmd” then [run it with admin rights](https://msguides.com/open-command-prompt-admin).
+Click on the start button, search for **“cmd”** then [run it with admin rights](https://msguides.com/open-command-prompt-admin).
 
 ![image](https://cdn.msguides.com/wp-content/uploads/2021/07/run-cmd-app-as-admin.png)
 
@@ -22,10 +22,10 @@ open command prompt app with admin rightsopen command prompt app with admin righ
 
 **Step 1.2**: Install KMS client key.
 
-Use the command “slmgr /ipk kmsclientkey” to install a license key (kmsclientkey is the activation key that corresponds to your Windows edition).
+Use the command **“slmgr /ipk kmsclientkey”** to install a license key (kmsclientkey is the activation key that corresponds to your Windows edition).
 The following is the list of Windows 11 Volume license keys.
 
-<br> **Home**: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+**Home**: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 <br> **Home N**: 3KHY7-WNT83-DGQKR-F7HPR-844BM
 <br> **Home Single Language**: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
 <br> **Home Country Specific**: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
@@ -36,7 +36,8 @@ The following is the list of Windows 11 Volume license keys.
 <br> **Enterprise**: NPPR9-FWDCX-D2C8J-H872K-2YT43
 <br> **Enterprise N**: 
 DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-
+<br>
+<br>
 ![image](https://cdn.msguides.com/wp-content/uploads/2021/07/install-kms-client-key-on-windows.png)
 <br>*install Windows product key using cmd appinstall Windows product key using cmd app*
 
@@ -44,7 +45,7 @@ DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 Use the command **“slmgr /skms kms8.msguides.com”** to connect to my KMS server.
 
 ![image](https://cdn.msguides.com/wp-content/uploads/2022/06/run-command-slmgr-skms.png)
-*run command slmgr skmsrun command slmgr skms*
+<br>*run command slmgr skmsrun command slmgr skms*
 
 **Step 1.4**: Activate your Windows.
 The last step is to activate your Windows using the command “slmgr /ato”.
