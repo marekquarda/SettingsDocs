@@ -87,10 +87,7 @@ Install PgAdmin4 in Linux Mint
 12. Next, create a configuration file config_local.py.
 ```
 -------- On Linux Mint 22/21 --------
-$ sudo nano pgadmin4env/lib/python3.10/site-packages/pgadmin4/config_local.py
-
--------- On Linux Mint 20 --------
-$ sudo nano pgadmin4env/lib/python3.8/site-packages/pgadmin4/config_local.py
+$ sudo vim pgadmin4env/lib/python3.12/site-packages/pgadmin4/config_local.py
 ```
 and add the lines below.
 ```
@@ -109,10 +106,7 @@ Create PgAdmin4 Configuration
 13. To start the pgAdmin4 management tool, invoke the command:
 ```
 -------- On Linux Mint 22/21 --------
-$ python pgadmin4env/lib/python3.10/site-packages/pgadmin4/pgAdmin4.py
-
--------- On Linux Mint 20 -------- 
-$ python pgadmin4env/lib/python3.8/site-packages/pgadmin4/pgAdmin4.py
+$ python pgadmin4env/lib/python3.12/site-packages/pgadmin4/pgAdmin4.py
 ```
 ![image](https://www.tecmint.com/wp-content/uploads/2021/01/Start-pgadmin4-Service.png)
 Start PgAdmin4 Service
