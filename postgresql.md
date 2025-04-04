@@ -115,5 +115,27 @@ Start PgAdmin4 Service
 http://127.0.0.1:5050
 ```
 You will be prompted to set the master password, so proceed and set a strong password and click the ‘Ok’ button.
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Set-pgadmin4-Password.png)
+Set PgAdmin4 Password
 
+15. To make things easier, you can create an alias in the ~/.bashrc file as shown.
+```
+-------- On Linux Mint 22/21 -------- 
+$ echo "alias startPg='~/pgadmin4/pgadmin4env/bin/python pgadmin4env/lib/python3.10/site-packages/pgadmin4/pgAdmin4.py'" >> ~/.bashrc
+
+-------- On Linux Mint 20 -------- 
+$ echo "alias startPg='~/pgadmin4/pgadmin4env/bin/python pgadmin4env/lib/python3.8/site-packages/pgadmin4/pgAdmin4.py'" >> ~/.bashrc
+```
+16. Next, update the bashrc file.
+```
+$ source ~/.bashrc
+```
+17. Finally, you can start the pgAdmin4 management tool by simply invoking the startPg command.
+```
+$ startPg &
+```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Start-pgadmin4-Tool.png)
+Start PgAdmin4 Tool
+
+Once again head over to your browser and log in to the PgAdmin4 interface. And this concludes the installation of PostgreSQL with pgAdmin4 on Linux Mint 21 and Linux Mint 20.
 
