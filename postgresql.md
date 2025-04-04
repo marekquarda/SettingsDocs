@@ -13,7 +13,7 @@ Since pgAdmin4 provides a frontend interface for the management of PostgreSQL da
 ```
 $ sudo apt install postgresql postgresql-contrib
 ```
-# Install PostgreSQL on Linux Mint
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-PostgreSQL-on-Linux-Mint.png)
 Install PostgreSQL on Linux Mint
 3. Usually, PostgreSQL starts automatically on boot up. You can confirm this using the command given below:
 ```
