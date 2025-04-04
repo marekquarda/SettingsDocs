@@ -15,33 +15,42 @@ $ sudo apt install postgresql postgresql-contrib
 ```
 ![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-PostgreSQL-on-Linux-Mint.png)
 Install PostgreSQL on Linux Mint
+
 3. Usually, PostgreSQL starts automatically on boot up. You can confirm this using the command given below:
 ```
 $ sudo systemctl status postgresql
 ```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Check-PostgreSQL-Status.png)
 Check PostgreSQL Status
+
 4. To log in to your PostgreSQL instance, first switch to the postgres user. The Postgres user comes included by default with the installation of PostgreSQL. Then run the psql command as shown.
 ```
 $ sudo -i -u postgres
 $ psql
 # \q
 ```
-
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Connect-to-PostgreSQL-Shell.png)
 Connect to PostgreSQL Shell
+
 5. Additionally, you can check if the database server is accepting incoming connections as shown.
 ```
 $ sudo pg_isready
 ```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/PostgreSQL-Accepting-Incoming-Connections.png)
 Check PostgreSQL Accepting Incoming Connections
+
 # Step 2: Install pgAdmin4 on Linux Mint
-pgAdmin4 is available for Ubuntu 16.04 and later versions and can easily be installed using the APT package manager. The same cannot support Linux Mint and Pgadmi4 developers are yet to include support that allows users to easily install the frontend management tool using the APT package manager.
+**pgAdmin4** is available for Ubuntu 16.04 and later versions and can easily be installed using the APT package manager. The same cannot support Linux Mint and Pgadmi4 developers are yet to include support that allows users to easily install the frontend management tool using the APT package manager.
 
 6. The only viable option is to install pgAdmin4 from a virtual environment. So first, we will install the prerequisite packages as shown.
 ```
 $ sudo apt install libgmp3-dev build-essential libssl-dev
 ```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-Prerequisite-Packages.png)
 Install Prerequisite Packages
+
 7. Next, install the Python virtual environment and associated dependencies.
 ```
 $ sudo apt install python3-virtualenv python3-dev libpq-dev
 ```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-Python-Virtual-Environment.png)
