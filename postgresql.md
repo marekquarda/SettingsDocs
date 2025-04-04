@@ -1,6 +1,13 @@
 https://www.tecmint.com/install-postgresql-with-pgadmin4-on-linux-mint/
+# How to Install PostgreSQL with pgAdmin4 on Linux Mint 22/21/20
 
-# Step 1: Install PostgreSQL Database on Linux Mint
+pgAdmin is an open-source feature-rich, frontend management tool that allows you to easily administer and manage your PostgreSQL relational database from a web browser.
+
+It provides an easy-to-use user interface that simplifies the creation and monitoring of databases and database objects. PgAdmin 4 is an improvement of the earlier pgAdmin tool and is available for Linux, Windows, macOS systems, and even a Docker container.
+
+In this tutorial, you will learn how to install PostgreSQL with pgAdmin4 on Linux Mint 21 and Linux Mint 20
+
+## Step 1: Install PostgreSQL Database on Linux Mint
 1. To start off, launch your terminal and update your packages using the apt package manager as shown.
 ```
 $ sudo apt update -y
