@@ -54,3 +54,37 @@ Install Prerequisite Packages
 $ sudo apt install python3-virtualenv python3-dev libpq-dev
 ```
 ![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-Python-Virtual-Environment.png)
+Install Python Virtual Environment
+
+8. Next, create a directory where you will create a virtual environment.
+```
+$ mkdir pgadmin4 && cd pgadmin4
+```
+9. Then create the virtual environment as shown. Here, pgadmin4env is the name of the virtual environment.
+```
+$ virtualenv pgadmin4env
+```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Create-Virtual-Environment-for-pgAdmim4.png)
+
+10. Once the virtual environment is in place, activate it as shown.
+```
+$ source pgadmin4env/bin/activate
+```
+11. Then use the [pip](https://www.tecmint.com/install-pip-in-linux/) tool to install pgadmin4 as shown.
+```
+$ pip install https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v8.11/pip/pgadmin4-8.11-py3-none-any.whl
+```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Install-pgadmin4-in-Linux-Mint.png)
+Install PgAdmin4 in Linux Mint
+
+12. Next, create a configuration file config_local.py.
+```
+-------- On Linux Mint 22/21 --------
+$ sudo nano pgadmin4env/lib/python3.10/site-packages/pgadmin4/config_local.py
+
+-------- On Linux Mint 20 --------
+$ sudo nano pgadmin4env/lib/python3.8/site-packages/pgadmin4/config_local.py
+```
+
+
+
