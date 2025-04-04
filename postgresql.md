@@ -85,6 +85,35 @@ $ sudo nano pgadmin4env/lib/python3.10/site-packages/pgadmin4/config_local.py
 -------- On Linux Mint 20 --------
 $ sudo nano pgadmin4env/lib/python3.8/site-packages/pgadmin4/config_local.py
 ```
+and add the lines below.
+```
+import os
+DATA_DIR = os.path.realpath(os.path.expanduser(u'~/.pgadmin/'))
+LOG_FILE = os.path.join(DATA_DIR, 'pgadmin4.log')
+SQLITE_PATH = os.path.join(DATA_DIR, 'pgadmin4.db')
+SESSION_DB_PATH = os.path.join(DATA_DIR, 'sessions')
+STORAGE_DIR = os.path.join(DATA_DIR, 'storage')
+SERVER_MODE = False
+AZURE_CREDENTIAL_CACHE_DIR = os.path.join(DATA_DIR, 'azurecredentialcache')
+```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Create-pgadmin4-Configuration.png)
+Create PgAdmin4 Configuration
 
+13. To start the pgAdmin4 management tool, invoke the command:
+```
+-------- On Linux Mint 22/21 --------
+$ python pgadmin4env/lib/python3.10/site-packages/pgadmin4/pgAdmin4.py
+
+-------- On Linux Mint 20 -------- 
+$ python pgadmin4env/lib/python3.8/site-packages/pgadmin4/pgAdmin4.py
+```
+![image](https://www.tecmint.com/wp-content/uploads/2021/01/Start-pgadmin4-Service.png)
+Start PgAdmin4 Service
+
+14. Finally, head over to your browser and browse the address shown.
+```
+http://127.0.0.1:5050
+```
+You will be prompted to set the master password, so proceed and set a strong password and click the ‘Ok’ button.
 
 
