@@ -122,7 +122,7 @@ Set PgAdmin4 Password
 15. To make things easier, you can create an alias in the ~/.bashrc file as shown.
 ```
 -------- On Linux Mint 22/21 -------- 
-$ echo "alias startPg='~/pgadmin4/pgadmin4env/bin/python pgadmin4env/lib/python3.10/site-packages/pgadmin4/pgAdmin4.py'" >> ~/.bashrc
+$ echo "alias startPg='home/marra/pgadmin4/pgadmin4env/bin/python /home/marra/pgadmin4/pgadmin4env/lib/python3.10/site-packages/pgadmin4/pgAdmin4.py'" >> ~/.bashrc
 
 -------- On Linux Mint 20 -------- 
 $ echo "alias startPg='~/pgadmin4/pgadmin4env/bin/python pgadmin4env/lib/python3.8/site-packages/pgadmin4/pgAdmin4.py'" >> ~/.bashrc
