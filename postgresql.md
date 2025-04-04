@@ -46,7 +46,7 @@ $ sudo pg_isready
 ![image](https://www.tecmint.com/wp-content/uploads/2021/01/PostgreSQL-Accepting-Incoming-Connections.png)
 Check PostgreSQL Accepting Incoming Connections
 
-# Step 2: Install pgAdmin4 on Linux Mint
+## Step 2: Install pgAdmin4 on Linux Mint
 **pgAdmin4** is available for Ubuntu 16.04 and later versions and can easily be installed using the APT package manager. The same cannot support Linux Mint and Pgadmi4 developers are yet to include support that allows users to easily install the frontend management tool using the APT package manager.
 
 6. The only viable option is to install pgAdmin4 from a virtual environment. So first, we will install the prerequisite packages as shown.
