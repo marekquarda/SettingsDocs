@@ -140,3 +140,16 @@ Start PgAdmin4 Tool
 
 Once again head over to your browser and log in to the PgAdmin4 interface. And this concludes the installation of PostgreSQL with pgAdmin4 on Linux Mint 21 and Linux Mint 20.
 
+# Setting Database 
+```
+$ sudo su - postgres
+$ psql
+$ postgres# select version();
+$ postgres# \du      // list of roles
+$ postgres# alter user postgres with password 'admin@123';
+$ postgres# \l
+$ postgres# create database pokus;
+$ postgres# CREATE ROLE marra WITH LOGIN SUPERUSER PASSWORD 'xmatrix';
+
+
+```
