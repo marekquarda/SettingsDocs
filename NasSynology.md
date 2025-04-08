@@ -16,6 +16,19 @@ Open SSH Nas server
 Past (CTRL+V)
 Save VIM.
 
+# Git configure 
+Open SSH connection to NAS Synology
+```
+cd /volume1/git-server/
+git init --bare new-git-repo.git
+```
+
+Test clone 
+```
+git clone ssh://admin@NasStation:/volume1/git-server/new-git-repo.git
+```
+
+
 
 
 
