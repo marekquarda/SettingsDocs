@@ -1,18 +1,21 @@
 https://github.com/007revad/Synology_SSH_key_setup
 
-Add Git to NAS. 
+# Add Git to NAS. 
 Generate public key on Windows side
+```
 # ssh-keygen -o
-
+```
 Enter, Enter, no password 
 open powershell 
+```
 # cat ~/.ssh/id_rsa.pub
-
+```
 Copy (CTRL+C)
 Open SSH Nas server 
+```
 # cd /volume1/homes/admin/.ssh    // or make dir .ssh
 # vim autorized_keys
-
+```
 Past (CTRL+V)
 Save VIM.
 
