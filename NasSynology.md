@@ -22,6 +22,12 @@ Open SSH connection to NAS Synology
 cd /volume1/git-server/
 git init --bare new-git-repo.git
 ```
+Open repo to change
+```
+$ git remote set-url origin ssh://admin@NasStation:/volume1/git-server/new-git-repo
+$ git config --global user.email "mquarda@centrum.cz"
+$ git config --global user.name "Marek Xara Quarda"
+```
 
 Test clone 
 ```
