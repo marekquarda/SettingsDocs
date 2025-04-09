@@ -8,3 +8,8 @@ param_spidev_spi_bus=0, where 0 represents spi0
 overlays=spi-spidev
 param_spidev_spi_bus=0
 ```
+
+# Install FlashRom on Orange PI
+```
+$ sudo apt install flashrom
+```
