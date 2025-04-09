@@ -13,3 +13,7 @@ param_spidev_spi_bus=0
 ```
 $ sudo apt install flashrom
 ```
+# Try to read chip
+```
+$ flashrom -p linux_spi:dev=/dev/spidev0.0,spispeed=1000 
+```
