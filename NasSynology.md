@@ -36,6 +36,11 @@ Test clone
 ```
 git clone ssh://admin@NasStation:/volume1/git-server/new-git-repo.git
 ```
+Info remote repo
+```
+git remote -v
+```
+
 
 
 
