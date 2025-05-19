@@ -40,7 +40,10 @@ Info remote repo
 ```
 git remote -v
 ```
-
+View the S.M.A.R.T.
+```
+sudo smartctl -a -d sat /dev/sda
+```
 
 
 
