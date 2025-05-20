@@ -10,6 +10,9 @@ open powershell
 ```
 # cat ~/.ssh/id_rsa.pub
 ```
+Check if volume1/homes exists
+>> enable user home service (DSM - Control Panel - Users - Advanced - User Home)
+
 Copy (CTRL+C)
 Open SSH Nas server 
 ```
