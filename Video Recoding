@@ -1,0 +1,3 @@
+```
+ffmpeg -vcodec mpeg4 -b:v 7561k -qscale:v 2 -acodec aac -ac 2 -async 1 -strict experimental ./video_fixed.mp4 -threads 0 -i damage_file.mp4
+```
