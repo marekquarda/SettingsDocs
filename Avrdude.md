@@ -21,6 +21,11 @@ Erase chip (example)
 ```
 sudo avrdude -c linuxgpio -p m328p -e          /// erase chip
 ```
+Erase chip (AT90S8535)
+```
+sudo avrdude -c linuxgpio -p 8535 -e          /// erase chip
+```
+
 Other configuration
 ```
 #programmer
