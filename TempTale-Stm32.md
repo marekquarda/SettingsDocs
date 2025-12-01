@@ -12,3 +12,5 @@ https://www.st.com/resource/en/datasheet/stm32l152ze.pdf
 
 ## Sample project for testing
 https://github.com/ObKo/stm32-cmake
+
+https://iwasz.pl/electronics/stm32-on-ubuntu-linux-step-by-step/
