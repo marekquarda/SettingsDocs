@@ -9,3 +9,6 @@ https://hackaday.io/project/191592/instructions
 
 ## Pdf for CPU 
 https://www.st.com/resource/en/datasheet/stm32l152ze.pdf
+
+## Sample project for testing
+https://github.com/ObKo/stm32-cmake
