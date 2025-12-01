@@ -44,8 +44,11 @@ git clone https://github.com/majbthrd/pico-debug.git
 copy to ..... /usr/local/share/
 
 
-
-sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg 
-// write flash (takes long time)
+```
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg <br/>
+```
+### // write flash (takes long time)
+```
 sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg -c "program blink.elf verify reset exit"
+```
 
