@@ -5,3 +5,6 @@ https://hackaday.io/project/191592-free-devboard-from-a-used-up-temperature-logg
 ![Part1](https://cdn.hackaday.io/images/3603951687191150348.jpg "Part 1")
 
 ![Part2](https://cdn.hackaday.io/images/9096341688072048151.jpg "Part 2")
+
+## Pdf for CPU 
+https://www.st.com/resource/en/datasheet/stm32l152ze.pdf
