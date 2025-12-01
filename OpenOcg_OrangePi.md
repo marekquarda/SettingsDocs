@@ -54,6 +54,6 @@ sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg -c "p
 #### New test for STM32L151xE 
 
 ```
-sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32l1.cfg <br/>
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32l1.cfg 
 ```
 
