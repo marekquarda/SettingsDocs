@@ -14,3 +14,4 @@ https://www.st.com/resource/en/datasheet/stm32l152ze.pdf
 https://github.com/ObKo/stm32-cmake
 
 https://iwasz.pl/electronics/stm32-on-ubuntu-linux-step-by-step/
+https://dev.to/pgradot/cmake-on-stm32-the-beginning-3766
