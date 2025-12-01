@@ -51,4 +51,9 @@ sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg <br/>
 ```
 sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg -c "program blink.elf verify reset exit"
 ```
+#### New test for STM32L151xE 
+
+```
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32l1.cfg <br/>
+```
 
