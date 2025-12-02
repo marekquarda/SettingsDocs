@@ -15,3 +15,10 @@ https://github.com/ObKo/stm32-cmake
 
 https://iwasz.pl/electronics/stm32-on-ubuntu-linux-step-by-step/
 https://dev.to/pgradot/cmake-on-stm32-the-beginning-3766
+
+## LCD Manuals
+https://www.aliexpress.com/item/1005007671130164.html <br/>
+
+
+
+
