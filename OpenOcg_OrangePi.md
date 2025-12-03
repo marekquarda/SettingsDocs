@@ -43,7 +43,10 @@ cd openocd
 # make 
 # make install
 ```
-
+```
+cd /usr/local/share/openocd/scripts/interface
+sudo vim sysfsgpio-raspberrypi.cfg
+```
 =================================================================
 ```
 cd ..
