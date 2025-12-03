@@ -29,10 +29,12 @@ git clone https://github.com/openocd-org/openocd.git
 
 ---------------------------------------------------------
 edit /tcl/interface/sysfsgpio-raspberrypi.cfg 
-
+```
+# Original Orange PI One -- PC04 PD14
 # Each of the SWD lines need a gpio number set: swclk swdio
 # Header pin numbers: 23 22
 sysfsgpio swd_nums 68 110
+```
 ============================================================
 ```
 cd openocd 
