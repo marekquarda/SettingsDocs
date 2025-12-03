@@ -31,18 +31,21 @@ edit /tcl/interface/sysfsgpio-raspberrypi.cfg
 # Header pin numbers: 23 22
 sysfsgpio swd_nums 68 110
 ============================================================
+```
 cd openocd 
 # ./bootstrap 
 # ./configure --enable-sysfsgpio 
 # make 
-# make install 
+# make install
+```
 
 =================================================================
+```
 cd ..
 git clone https://github.com/majbthrd/pico-debug.git 
 .... extract ... board/pico-debug.cfg   
 copy to ..... /usr/local/share/
-
+```
 
 ```
 sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg <br/>
