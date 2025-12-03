@@ -18,7 +18,7 @@ https://dev.to/pgradot/cmake-on-stm32-the-beginning-3766
 
 ## LCD Manuals
 https://www.aliexpress.com/item/1005007671130164.html <br/>
-
+https://github.com/libopencm3/libopencm3-examples/tree/master/examples/stm32/l1/stm32l-discovery
 
 
 
