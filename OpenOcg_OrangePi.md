@@ -67,4 +67,7 @@ sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg -c "p
 ```
 sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32l1.cfg 
 ```
+```
+$ sudo src/openocd -f interface/picoprobe.cfg -f target/rp2040.cfg -s tcl
+```
 
