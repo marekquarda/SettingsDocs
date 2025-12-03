@@ -17,8 +17,11 @@ Additionally, for building from git:
 - autoconf >= 2.69
 - automake >= 1.14
 - texinfo >= 5.0
-
-
+```
+sudo apt-get update
+sudo apt-get install libtool pkg-config
+sudo apt-get install pkg-config libjim-dev
+```
 ==========================================================
 sudo apt install git libtool pkg-config   
 # download git OpenOcg 
