@@ -30,7 +30,10 @@ git clone https://github.com/openocd-org/openocd.git
 ---------------------------------------------------------
 edit /tcl/interface/sysfsgpio-raspberrypi.cfg 
 ```
-# Original Orange PI One -- PC04 PD14
+# Original Orange PI One -- PC04 PD14 TxD1 RxD1
+# Need to connect serial interface!!! Two wire for SWCLK SWDIO, two for Serial UART
+sysfsgpio jtag_nums 68 110 190 198 
+
 # Each of the SWD lines need a gpio number set: swclk swdio
 # Header pin numbers: 23 22
 sysfsgpio swd_nums 68 110
