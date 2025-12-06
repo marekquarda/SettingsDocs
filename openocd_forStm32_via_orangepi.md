@@ -1,4 +1,7 @@
-## interface/
+```
+sudo vim /usr/local/share/openocd/scripts/interface/sysfsgpio-raspberrypi.cfg
+```
+## interface/sysfsgpio-raspberrypi.cfg
 
 ```
 adapter driver sysfsgpio
