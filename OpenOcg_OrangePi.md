@@ -52,14 +52,12 @@ sudo vim sysfsgpio-raspberrypi.cfg
 ```
 =================================================================
 ```
-cd ..
-git clone https://github.com/majbthrd/pico-debug.git 
-.... extract ... board/pico-debug.cfg   
-copy to ..... /usr/local/share/
+### Comunication for RB Pico
 ```
-
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/rb2040.cfg 
 ```
-sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg <br/>
+```
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg 
 ```
 ### // write flash (takes long time)
 ```
