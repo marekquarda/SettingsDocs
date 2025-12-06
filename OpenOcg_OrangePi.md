@@ -71,4 +71,11 @@ sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32l1.cfg
 ```
 $ sudo src/openocd -f interface/picoprobe.cfg -f target/rp2040.cfg -s tcl
 ```
+https://catch22eu.github.io/website/baremetal/openocd_sysfs_stm32/ <br/>
+https://github.com/raspberrypi/openocd
+
+```
+
+```
+
 
