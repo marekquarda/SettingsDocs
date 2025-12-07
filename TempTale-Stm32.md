@@ -22,4 +22,9 @@ https://github.com/libopencm3/libopencm3-examples/tree/master/examples/stm32/l1/
 https://www.acmesystems.it/h10_swd_pico2040 <br/>
 
 
+```
+sudo openocd -f board/temperature.cfg -c "program test.elf exit" 
+```
+
+
 
