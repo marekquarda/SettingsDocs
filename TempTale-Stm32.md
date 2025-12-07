@@ -21,5 +21,18 @@ https://www.aliexpress.com/item/1005007671130164.html <br/>
 https://github.com/libopencm3/libopencm3-examples/tree/master/examples/stm32/l1/stm32l-discovery <br/>
 https://www.acmesystems.it/h10_swd_pico2040 <br/>
 
+## Install openocd
+```
+sudo apt get install openocd 
+```
+## Copy files to openocd 
+```
+cp sysfsgpio-raspberrypi.cfg /usr/local/share/openocd/scripts/inteface/
+cp temperature.cfg /usr/local/share/openocd/scripts/board/
+```
+```
+sudo openocd -f board/temperature.cfg -c "program test.elf reset exit" 
+```
+
 
 
