@@ -5,6 +5,7 @@ sudo vim /usr/local/share/openocd/scripts/interface/sysfsgpio-raspberrypi.cfg
 
 ```
 adapter driver sysfsgpio
+!!!! new version has 'interface sysfsgpio'
 # Header pin numbers: 16 12 40 38
 # Pins PC4 PD14 PG7 PG6 
 sysfsgpio jtag_nums 68 110 199 198 
