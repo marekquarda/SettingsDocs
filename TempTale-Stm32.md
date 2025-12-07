@@ -23,7 +23,7 @@ https://www.acmesystems.it/h10_swd_pico2040 <br/>
 
 
 ```
-sudo openocd -f board/temperature.cfg -c "program test.elf exit" 
+sudo openocd -f board/temperature.cfg -c "program test.elf reset exit" 
 ```
 
 
