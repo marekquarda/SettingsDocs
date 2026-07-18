@@ -30,7 +30,11 @@ git init --bare new-git-repo.git
 ```
 Open repo to change
 ```
-$ git remote set-url origin ssh://admin@NasStation:/volume1/git-server/new-git-repo
+//$ git remote set-url origin ssh://admin@NasStation:/volume1/git-server/new-git-repo
+git remote add master ssh://admin@NasStation:/volume1/git-server/gittest.git
+git fetch
+git push
+git push --set-upstream master master
 $ git config --global user.email "mquarda@centrum.cz"
 $ git config --global user.name "Marek Xara Quarda"
 ```
