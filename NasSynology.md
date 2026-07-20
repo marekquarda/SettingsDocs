@@ -52,6 +52,21 @@ View the S.M.A.R.T.
 sudo smartctl -a -d sat /dev/sda
 ```
 
+Dodatek 
+```
+# In PC TERMINAL
+ssh-keygen -t ed25519
+eval “$(ssh-agent -s)”
+ssh-add ~/.ssh/id_ed25519
+
+# COPY SSH publi key to NAS
+ssh-copy-id -p 22  -i id_rsa.pub admin@NasStation
+
+# EDIT File in NAS 
+ssh -p [port] [admin-user]@[ip/domain]
+[enter password when prompted]
+sudo vim /etc/ssh/sshd_config
+```
 
 
 
