@@ -64,3 +64,25 @@ Restart Samba with:
 ```
 $ sudo systemctl restart smbd
 ```
+
+Other configuration, look at it
+```
+smb.conf
+[global]
+    workgroup = GROUPNAME
+    security = user
+    passdb backend = tdbsam
+    guest account = nobody
+    map to guest = Bad User
+
+[USB]
+   path = /mnt/disk
+   public = yes
+   only guest = yes
+   writable = no
+   printable = no
+   force user = root
+sudo setsebool -P samba_export_all_ro 1
+
+sudo service smb restart
+```
