@@ -31,7 +31,7 @@ git init --bare new-git-repo.git
 Open repo to change
 ```
 //$ git remote set-url origin ssh://admin@NasStation:/volume1/git-server/new-git-repo
-//$ git remote set-url origin ssh://git@fedora:/repositories/directx11.git
+//$ git remote set-url origin ssh://git@fedora:/home/git/repositories/directx11.git
 git remote add origin ssh://admin@NasStation:/volume1/git-server/gittest.git
 git fetch
 git push
