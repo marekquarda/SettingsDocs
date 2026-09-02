@@ -13,3 +13,6 @@ $ git submodule init
 ```
 $ git submodule update
 ```
+
+FEDORA Git server tutorial
+https://reintech.io/blog/setting-up-git-server-fedora-38
